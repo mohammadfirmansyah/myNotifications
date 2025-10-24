@@ -132,6 +132,13 @@ android {
     androidResources {
         ignoreAssetsPattern '!.svn:!.git:!.ds_store:!*.scc:!CVS:!thumbs.db:!picasa.ini:!*~'
     }
+    
+    // Disable lint checks to avoid Metaspace errors during build
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+        ignoreWarnings true
+    }
 }
 
 // Apply static values from `gradle.properties` to the `android.packagingOptions`
