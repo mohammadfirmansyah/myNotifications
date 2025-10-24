@@ -89,9 +89,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace 'com.mohammadfirmansyah.mynotifications'
+    namespace 'com.mohammadfirmansyah.myNotifications'
     defaultConfig {
-        applicationId 'com.mohammadfirmansyah.mynotifications'
+        applicationId 'com.mohammadfirmansyah.myNotifications'
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
