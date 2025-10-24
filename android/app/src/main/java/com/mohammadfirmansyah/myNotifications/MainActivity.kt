@@ -1,4 +1,4 @@
-package com.mohammadfirmansyah.myNotifications
+package com.mohammadfirmansyah.mynotifications
 
 import android.os.Build
 import android.os.Bundle
