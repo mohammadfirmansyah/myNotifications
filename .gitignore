@@ -36,16 +36,6 @@ yarn-error.*
 # typescript
 *.tsbuildinfo
 
-# Android build files
-android/app/build/
-android/build/
-android/.gradle/
-android/app/release/
-android/app/debug/
-
-# Sensitive files - DO NOT COMMIT
-*-firebase-adminsdk-*.json
-google-services.json
-
 # generated native folders
 /ios
+/android
